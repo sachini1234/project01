@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+figcaption {
+  background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), #FFFFFF;
+  padding: 24px 40px 32px;
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 60px;
+  right: 800px;
+  bottom: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grad1 p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  order: 0;
+  flex-grow: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.grad1 button{
+  padding: 12px 20px;
+  gap: 8px;
+  background: #F28D35;
+  border-radius: 4px;
+  width: 220px;
+  height: 38px;
+}
+
+.grad1 button p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.topic{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px;
+  /* identical to box height, or 122% */
+
+  letter-spacing: 0.4px;
+
+  color: #6B3CC9;
+}
+
+.content{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.container button{
+padding: 12px 20px;
+gap: 8px;
+width: 140px;
+height: 38px;
+background: #F28D35;
+border-radius: 4px;
+}
+
+.container button p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%; 
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+footer{
+  background-color: #6B3CC9;
+}
+
+footer img{
+  width: auto;
+  height: 20px;
+}
+
+footer .h{
+  border: 1px solid #FFFFFF;
+}
+
+@media only screen and (max-width: 1260px){
+  figcaption{
+    right: 450px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 870px){
+  figcaption{
+    right: 150px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 768px){
+  figcaption{
+      position: inherit; 
+      bottom: inherit; 
+      color: inherit; 
+      left: 0px;
+      right: 0px;
+  }
+
+  .grad1 p{
+    font-size: 42px;
+  }
+
+  .grad1 button{
+    gap: 40px;
+
+    width: 220px;
+    height: 38px;
+  }
+}
+
+@media only screen and (max-width: 640px){
+  .grad1 p{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .grad1 p{
+    font-size: 25px;
   }
 }
