@@ -97,9 +97,21 @@ footer .h{
   border: 1px solid #FFFFFF;
 }
 
+footer .link{
+  font-size: 25px;
+}
+
 @media only screen and (max-width: 1260px){
   figcaption{
     right: 450px;
+  }
+
+  footer .link{
+    font-size: 17px;
+  }
+
+  footer img{
+    height: 15px;
   }
 }
 
@@ -133,6 +145,20 @@ footer .h{
 @media only screen and (max-width: 640px){
   .grad1 p{
     font-size: 30px;
+  }
+
+  footer .cont{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  footer .link{
+    font-size: 14px;
+  }
+
+  footer .cont{
+    font-size: 10px;
   }
 }
 

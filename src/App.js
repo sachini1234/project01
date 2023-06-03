@@ -18,7 +18,7 @@ function App() {
         <figcaption className="flex-md-column me-lg-5">
           <div className="grad1">
             <p>We crush your competitors, goals, and sales records - without the B.S.</p>
-            <button type="button" className="btn">
+            <button type="button" className="border-0">
               <p>Get free consultation</p>
             </button>
           </div>
@@ -34,7 +34,7 @@ function App() {
             <div className="mt-sm-3 justify-content-sm-center">
               <p className="topic">Web & Mobile App Development</p>
               <p className="content">Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
-              <button type="button" className="btn learn">
+              <button type="button" className="border-0 learn">
                 <p>LEARN MORE</p>
               </button>
             </div>
@@ -51,7 +51,7 @@ function App() {
             <div className="mt-sm-3">
               <p className="topic justify-content-sm-center align-items-sm-center">Web & Mobile App Development</p>
               <p className="content justify-content-sm-center align-items-sm-center">Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
-              <button type="button" className="btn learn justify-content-sm-center align-items-sm-center">
+              <button type="button" className="border-0 learn justify-content-sm-center align-items-sm-center">
                 <p>LEARN MORE</p>
               </button>
             </div>
